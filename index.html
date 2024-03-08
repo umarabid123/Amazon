@@ -10,42 +10,138 @@
 
 </head>
 
-<body class="w-100 m-0">
+<body class="w-100 m-0 overflow-hidden">
   <!-- <div class="container-fluid"> -->
-  <nav class="nav navbar-expand-lg d-flex align-items-center w-100">
-    <img src="./Image/amazon.png" class="logo-amazon" alt="">
+  <header>
+    <nav class="nav navbar-expand-lg d-flex align-items-center gap-3 w-100">
+      <img src="./Image/amazon.png" class="logo-amazon" alt="">
 
-    <div class="location d-flex align-items-center">
-      <img src="./Image/location .png" class="location-logo align-self-end" alt="">
-      <div class="text-location">
-        <p class="loc-txt m-0">Deliver to</p>
-        <p class="loc-txt-p text-light fw-bold m-0">Pakistan</p>
+      <div class="location d-flex align-items-center">
+        <img src="./Image/location .png" class="location-logo align-self-end" alt="">
+        <div class="text-location">
+          <p class="loc-txt m-0">Deliver to</p>
+          <p class="loc-txt-p text-light fw-bold m-0">Pakistan</p>
+        </div>
+      </div>
+      <div class="input d-flex align-items-center">
+        <div class="dropdown-center">
+          <button class="btn1 m-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Action two</a></li>
+            <li><a class="dropdown-item" href="#">Action three</a></li>
+          </ul>
+        </div>
+        <input type="search" class="search m-0">
+        <img src="./Image/lens.png" class="lens-img" alt="">
+        <button class="btn2 "><img src="./Image/search-icon.png" class="serach-icon" alt=""></button>
+      </div>
+      <div class="flag d-flex align-items-end">
+        <img src="./Image/usa.jpg" class="flag-img" alt="">
+        <p class="fs-6 text-light  m-0">EN</p>
+        <span class="nav-icon-arow" style="visibility: visible;"></span>
+      </div>
+      <div class="sign-in">
+        <div class="text-location">
+          <p class="loc-txt-2 m-0">Hello, sign in</p>
+          <p class="loc-txt-p text-light fw-bold m-0">Account & Lists</p>
+        </div>
+      </div>
+      <div class="order">
+        <div class="text-location">
+          <p class="loc-txt-2 m-0">Returns</p>
+          <p class="loc-txt-p text-light fw-bold m-0">& Orders</p>
+        </div>
+      </div>
+      <div class="cart d-flex align-items-center gap-2">
+        <img src="./Image/cart.png" class="w-100" alt="">
+        <p class="loc-txt-p fs-6 text-light fw-bold m-0">Cart</p>
+      </div>
+    </nav>
+    </div>
+    <div class="mini-nav navbar navbar-dark">
+      <div class="container-fluid d-flex justify-content-start align-content-center">
+        <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        <div class="menu-items">
+          <ul class="d-flex gap-3 p-0 m-0">
+            <li class="fw-bold">All</li>
+            <li>Todays Deals</li>
+            <li>Customer Service</li>
+            <li>Resgistry</li>
+            <li>Gift Cards</li>
+            <li>Sells</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="input d-flex align-items-center">
-      <div class="dropdown-center">
-        <button class="btn1 m-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Computer
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Action two</a></li>
-          <li><a class="dropdown-item" href="#">Action three</a></li>
-        </ul>
+  </header>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Image/slider-img-1.jpg" class="d-block w-100" alt="...">
       </div>
-      <input type="search" class="search m-0">
-      <img src="./Image/lens.png" class="lens-img" alt="">
-      <button class="btn2 "><img src="./Image/search-icon.png" class="serach-icon" alt=""></button>
+      <div class="carousel-item">
+        <img src="./Image/slider-img-2.jpg" class="d-block w-100" alt="...">
       </div>
-      <div class="flag d-flex align-items-center">
-      <img src="./Image/usa.jpg" class="flag-img" alt="">
-      <p class="fs-4 text-light  m-0">EN</p>
-      <span class="nav-icon-arow" style="visibility: visible;"></span>
+      <div class="carousel-item">
+        <img src="./Image/slider-img-3.jpg" class="d-block w-100" alt="...">
       </div>
-  </nav>
-
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
   <script src="Bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
+
+
+
