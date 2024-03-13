@@ -2,14 +2,16 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.nav {
+.nav-m{
   background: #131921;
 }
 .logo-amazon {
   width: 8%;
   height: auto;
-  margin: 4px 6px;
+  /* margin: 4px 6px; */
 }
 .logo-amazon:hover {
   /* box-sizing: border-box; */
@@ -45,8 +47,13 @@ body {
   /* margin-right: 0px; */
   /* border-bottom-right-radius: 5px !important; */
 }
+/* .slider{
+  height: 100vh;
+} */
 .input{
     /* background: #fff; */
+    width: 40%;
+    max-width: 100%;
 }
 .search{
     height: 44px;
@@ -54,8 +61,18 @@ body {
     border: none;
     outline: none;
 }
+.search-2{
+  height: 44px;
+  /* width: 75vw; */
+  border: none;
+  outline: none;
+}
+.img-lens{
+  background: #ffffff;
+
+}
 .lens-img{
-    background: #fff;
+    background: #ffffff;
     width: 44px;
     height: 44px;
     padding: 13px;
@@ -127,3 +144,79 @@ body {
 }
 /* .carousel-control-prev-icon{
 } */
+.navbar-hamber{
+  color: #fff !important;
+}
+.navbar-responsive{
+  background: #232f3e !important;
+}
+.navbar-toggler{
+  border: 0px !important;
+}
+.logo-amazon-2{
+  width: 26% !important;
+}
+.signin-txt{
+  color: #fff;
+}
+.input-s-2{
+  max-width: 100%;
+}
+.nav-cart-count{
+  color: #f08804;
+  font-weight: bold;
+  position: absolute;
+  top: 9px;
+  right: 47px;
+}
+.nav-cart-count-m{
+  color: #f08804;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 68px;
+  font-size: 20px !important;
+}
+.last-text:hover{
+  color: #C7511F;
+}
+.top-f:hover{
+opacity: .9;
+}
+.nav-item{
+  font-size: 14px;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+.navFooterDescText{
+  color: #999999;
+}
+@media (max-width:450px){
+  .mini-nav{
+      font-size: .6rem;
+  }
+  .bar-2 button{
+      font-size: .6rem;
+  }
+  .bar-2 img{
+      width: 15px;
+  }
+  .card{
+    width: 10rem !important;
+  }
+  .carousel-item img{
+    height: 55vh;
+  }
+  .cards-cont{
+    top: 280px !important;
+  }
+}
+@media (min-width:992px){
+  .nav-m{
+      width: 100%;
+  }
+  .input{
+    width: 50%;
+  }
+}
