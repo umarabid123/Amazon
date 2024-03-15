@@ -264,6 +264,9 @@ opacity: .9;
   margin-top: 20px !important;
 
   }
+  .card{
+    width: 20rem !important;
+  }
 }
 
 @media (min-width:1025px){

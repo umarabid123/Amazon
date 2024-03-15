@@ -13,7 +13,7 @@
 <body class="mw-100 w-100 m-0">
   <!-- <div class="container-fluid"> -->
   <header id="head">
-    <nav class="nav-m navbar navbar-expand-lg overflow-hidden d-none d-lg-block">
+    <nav class="nav-m navbar navbar-expand-lg overflow-hidden d-none d-lg-block z-1">
       <div class="container-fluid justify-content-between justify-content-xl-start gap-xl-4">
         <div class="row">
           <div class="col d-sm-flex align-items-lg-center gap-lg-3 gap-3">
@@ -187,8 +187,8 @@
     </div>
     <div class="mini-nav navbar navbar-dark">
       <div class="container-fluid d-flex justify-content-start align-content-center">
-        <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> -->
-        <button class="navbar-button navbar-toggler p-2" type="button" data-bs-toggle="offcanvas"
+        <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> --> 
+        <!-- <button class="navbar-button navbar-toggler p-2" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -227,10 +227,21 @@
               <button class="btn btn-success" type="submit">Search</button>
             </form>
           </div>
+        </div> -->
+        <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="./Image/Menu.png" alt="Menu" width="25px" class="fw-bold"> All</button>
+
+        <div class="offcanvas offcanvas-start d-flex flex-column align-items-center justify-content-center min-vh-100" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="max-width: 30%;">
+          <div class="w-100 position-relative">
+            <h5 class="text-white p-3" id="offcanvasWithBothOptionsLabel" style="background-color: #232F3E">  <img src="./Image/User.png" alt="User" width="30px"> Hello, Sign In</h5>
+            <img src="./Image/Cross.png" alt="Cross" style="position: absolute; right: 15px; top: 15px; z-index: 2; color: white;" data-bs-dismiss="offcanvas" aria-label="Close">
+          </div>
+          <div class="offcanvas-body">
+            <p>Try scrolling the rest of the page to see this option in action.</p>
+          </div>
         </div>
         <div class="menu-items">
           <ul class="d-flex gap-3 p-0 m-0">
-            <li class="fw-bold ">All</li>
+            <!-- <li class="fw-bold ">All</li> -->
             <li class="">Todays Deals</li>
             <li class="">Customer Service</li>
             <li class="">Resgistry</li>
@@ -238,6 +249,9 @@
             <li class="">Sells</li>
           </ul>
         </div>
+        </div>
+        
+        
       </div>
     </div>
   </header>
