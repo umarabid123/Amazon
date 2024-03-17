@@ -185,8 +185,8 @@
       
       </nav> -->
     </div>
-    <div class="mini-nav navbar navbar-dark">
-      <div class="container-fluid d-flex justify-content-start align-content-center">
+    <div class="mini-nav navbar navbar-dark overflow-x-scroll">
+      <div class="container-fluid d-flex flex-nowrap justify-content-start align-content-center">
         <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> --> 
         <!-- <button class="navbar-button navbar-toggler p-2" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -228,7 +228,7 @@
             </form>
           </div>
         </div> -->
-        <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="./Image/Menu.png" alt="Menu" width="25px" class="fw-bold"> All</button>
+        <button class="btn text-white p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="./Image/Menu.png" alt="Menu" width="25px" class="fw-bold"></button>
 
         <div class="offcanvas offcanvas-start d-flex flex-column align-items-center justify-content-center min-vh-100" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="max-width: 30%;">
           <div class="w-100 position-relative">
@@ -240,8 +240,8 @@
           </div>
         </div>
         <div class="menu-items">
-          <ul class="d-flex gap-3 p-0 m-0">
-            <!-- <li class="fw-bold ">All</li> -->
+          <ul class="d-flex align-items-center gap-3 p-0 m-0">
+           <h6 class="m-0">All</h6>
             <li class="">Todays Deals</li>
             <li class="">Customer Service</li>
             <li class="">Resgistry</li>
@@ -418,8 +418,8 @@
     <div class="container-fluid about-container-m">
       <div class="row">
         <div class="column">
-          <div class="cards-cont-m d-flex gap-3 overflow-x-scroll mw-100" style="margin-top: 60px !important;">
-            <div class="card col-2 col-lg-4 col-xl-3 rounded-0 px-2 py-2 d-flex flex-column justify-content-center"
+          <div class="cards-cont-m d-flex gap-3 overflow-x-scroll mw-100" style="margin-top: 60px;">
+            <!-- <--- <div class="card col-2 col-lg-4 col-xl-3 rounded-0 px-2 py-2 d-flex flex-column justify-content-center"
               style="width: 20rem;   height: 53%;">
               <h5 class="fs-5 pb-2 ps-3 text-start fw-bold">Customers' most-loved</h5>
               <div class="card-all-item d-flex">
@@ -521,6 +521,55 @@
                 </div>
               </div>
               <p class="last-text fs-6 ps-3" style="color: #007185;">See more</p>
+            </div> --> 
+          </div> 
+          <div class="container-fluid bg-white">
+            <h3 class="pt-3 fs-5 fw-bold">Best Sellers in Sports &amp; Outdoors</h3>
+            <div class="wrapper-container d-flex align-items-center overflow-x-scroll justify-content-between p-1">
+  
+              <div class="img-item mx-3">
+                <img src="./Image/card-lg-1.jpg" alt="Card-img-1" width="200px">
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-2.jpg" alt="Card-img-2" width="250px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-3.jpg" alt="Card-img-3" width="250px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-4.jpg" alt="Card-img-4" width="200px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-5.jpg" alt="Card-img-5" width="184px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-6.jpg" alt="Card-img-6" width="130px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-7.jpg" alt="Card-img-7" width="70px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-8.jpg" alt="Car-img-8" width="130px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-9.jpg" alt="Car-img-9" width="130px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-10.jpg" alt="Car-img-10" width="80px">  
+              </div>
+  
+              <div class="img-item mx-3">
+              <img src="./Image/card-lg-11.jpg" alt="Car-img-11" width="130px">  
+              </div>
             </div>
           </div>
         </div>
@@ -746,9 +795,23 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container-fluid signin mt-2">
+      <div class="sign-in-section container-fluid bg-white py-2 pt-4">
+        <hr class="hr-2 ms-0 me-0">
+        <div class="row">
+          <div class="col d-flex justify-content-center align-items-center flex-column">
+            <p style="font-size: .8rem;">See personalized recommendations</p>
+            <a href="./login.html" class="btn btn-primary text-black fw-bold mb-2" style="background-color: #FFC636; border: 1px solid #E6A400; width: 260px; font-size: .8rem; font-weight: 300;">Sign in</a>
+            <p style="font-size: .8rem;">New customer? <a href="./signup.html">Start here</a></p>
+          </div>
+        </div>
+        <hr class="hr-2 ms-0 me-0">
       </div>
     </div>
   </main>
+  
   <footer class="d-none d-lg-block">
     <div class="top-f w-100 py-4 text-center" style="background-color: #37475A !important; margin-top: 40px;">
       <a href="#head" style="text-decoration: none;"><span class="" style="color: #fff;">Back to top</span></a>

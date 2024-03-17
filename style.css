@@ -4,6 +4,7 @@ body {
   padding: 0;
   max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #e3e6e6 !important;
 }
 .nav-m{
   background: #131921;
@@ -196,6 +197,12 @@ opacity: .9;
 .card-container::-webkit-scrollbar {
   display: none;
 }
+.wrapper-container::-webkit-scrollbar {
+  display: none;
+}
+.mini-nav::-webkit-scrollbar {
+  display: none;
+}
 @media (max-width:450px){
   .mini-nav{
       font-size: .6rem;
@@ -210,7 +217,7 @@ opacity: .9;
     width: 12rem !important;
   }
   .carousel-item img{
-    height: 55vh;
+    height: 50vh;
   }
   .card-container{
     top: 100px !important;
@@ -224,6 +231,12 @@ opacity: .9;
   }
   .about-container-m{
     margin-top: 100px !important;
+  }
+  .logo-amazon{
+    width: 50% !important;
+  }
+  .signin{
+    padding: 0 !important;
   }
 }
 @media (min-width:768px){
@@ -261,7 +274,7 @@ opacity: .9;
     right: 72px;
   }
   .cards-cont-m{
-  margin-top: 20px !important;
+  margin-top: 60px !important;
 
   }
   .card{
