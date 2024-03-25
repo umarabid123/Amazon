@@ -203,6 +203,9 @@ opacity: .9;
 .mini-nav::-webkit-scrollbar {
   display: none;
 }
+.card-item P{
+  padding-left: 20px;
+}
 @media (max-width:450px){
   .mini-nav{
       font-size: .6rem;
@@ -214,7 +217,7 @@ opacity: .9;
       width: 15px;
   }
   .card{
-    width: 12rem !important;
+    width: 12.2rem !important;
   }
   .carousel-item img{
     height: 50vh;
