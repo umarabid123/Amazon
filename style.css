@@ -185,6 +185,19 @@ body {
 .top-f:hover{
 opacity: .9;
 }
+.nav-items:hover{
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.mini-nav-items{
+    padding: 4px;
+}
+.mini-nav-items:hover{
+  /* padding: 6px; */
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 2px;
+}
 .nav-item{
   font-size: 14px;
 }
