@@ -231,6 +231,7 @@ opacity: .9;
   }
   .card{
     width: 12.2rem !important;
+ 
   }
   .carousel-item img{
     height: 50vh;
@@ -320,8 +321,31 @@ opacity: .9;
 .nav-cart-count-m{
   right: 68px;
 }
+
 hr{
   margin: 10px -102px !important;
   margin-top: 50px !important;
 }
+}
+@media (min-width:1370px){
+  .card{
+    width: 21rem !important;
+  }
+  .nav-cart-count-m {
+    right: 73px;
+  }
+}
+@media (min-width:1450px){
+  .card{
+    width: 21.5rem !important;
+
+  }
+
+}
+@media (min-width:1530px){
+  .card{
+    width: 23rem !important;
+
+  }
+
 }
