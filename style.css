@@ -334,12 +334,21 @@ hr{
   .nav-cart-count-m {
     right: 73px;
   }
+  .search {
+    width: 580px;
+}
 }
 @media (min-width:1450px){
   .card{
     width: 21.5rem !important;
 
   }
+  .card-container{
+    top: 360px !important;
+  }
+  .search {
+    width: 600px;
+}
 
 }
 @media (min-width:1530px){
@@ -347,5 +356,11 @@ hr{
     width: 23rem !important;
 
   }
+  .search {
+    width: 626px;
+}
+.card-container{
+  top: 400px !important;
+}
 
 }
